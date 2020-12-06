@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata&display=swap');
+body {
+    font-family: 'Literata', serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(214, 179, 65, 0.685);
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+ul {
+    font-size: large;
+    text-align: justify;
+    list-style-type: none;
+}
+
+li::before {
+    content: "►";
+    padding-right: 0.4em;
+    color: rgba(214, 179, 65, 0.685)
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 8%;
+    margin-right: 10%;
+}
